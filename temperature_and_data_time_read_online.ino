@@ -7,7 +7,7 @@
 #include <Adafruit_SSD1306.h>
 #include "Adafruit_Sensor.h";
 #include "DHT.h";
-DHT dht2(2,DHT11);
+DHT dht2(0,DHT11);
 #define OLED_RESET LED_BUILTIN  //4
 Adafruit_SSD1306 display(OLED_RESET);
 
